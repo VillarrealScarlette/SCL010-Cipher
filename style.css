@@ -1,0 +1,53 @@
+/*Centrado*/
+body {
+    text-align: center;
+}
+/*VENTANA DE INICIO*/
+/*Logo*/
+#logo {
+    margin-top: 40px;
+    width: 25%;
+    height: 25%;
+}
+/*Distancia botones de Acceso*/
+.btnStart {
+    margin-top: 20px; 
+}
+/*Estilo de letra*/
+p, h2, h1, label, textarea  {
+    font-family: Trebuchet MS;
+    font-style: normal;
+    font-weight: normal;
+}
+/*"Tu tranquilidad nos importa*/
+h2 {
+    font-size: 26px;
+    line-height: 29px;
+    color: #36C79B;
+}
+/*Información Inicio*/
+h1 {
+    font-size: 42px;
+    line-height: 45px;
+    margin-top: 40px; 
+    color: #004767;
+}
+/*Más información Inicio*/
+span.more {
+    font-size: 15px;
+    line-height: 18px;
+    color: #004767;
+    font-weight: bold;
+}    
+/*VENTANA DE TRABAJO*/
+/*Imagen Ventana de trabajo*/
+#background {
+    margin-top: 10px;
+    opacity: 0.7;
+    width: 12%;
+    height: 12%;
+}
+/*Tamaño ingreso de Offset*/
+#offset {
+    width: 7%;
+}

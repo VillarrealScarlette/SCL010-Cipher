@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>SAFE</title>
+</head>
+<body>
+<!--Identification-->
+    <div id="identification"> 
+        <img src="logo.jpg" id="logo">
+        <h2>Tu tranquilidad nos importa</h2>
+        <p><span class="info">Safe ha implementado un sistema donde usted podrá 
+        gestionar la <br>información logistica de nuestro servicio</span></p>   
+        <p><span class="more">Con la máxima seguridad y confianza que usted necesita</span></p><br>
+        <!--Botones "Costumers" && "Supplier"-->
+        <button class="btnStart" id="costumers">Acceso Clientes</button>
+        <button class="btnStart" id="supplier">Acceso Colaborador</button>
+    </div>
+    <div id="windowWork">
+        <img src="image.png" id="background">
+        <!--Costumers-->
+        <div id="request">
+            <h1>Requerimiento Safe</h1>
+        </div>
+        <!--Suppliers-->        
+        <div id="requisite">
+            <h1>Requisito Safe</h1>
+        </div>
+        <!--Trabajar--> 
+        <!--Cuadro Offset-->           
+        <label for="offset">Número de cliente: </label>
+        <input type="number" id="offset" required>
+        <br><br>
+        <!--Cuadro entrada de texto-->
+        <textarea id="enter_text" cols="40" rows="7" placeholder="Ingresar información" required></textarea>
+        <br><br>
+        <!--Boton Codificar para Costumers-->
+        <div id="btnCode">
+            <button class="btn" id="code">Codificar</button>
+        </div>
+        <!--Boton Decodificar para Supplier-->
+        <div id="btnUncode">
+            <button class="btn" id="uncode">Decodificar</button>
+        </div>
+        <!--Cuadro salida de texto-->
+        <br><br>
+        <textarea id="out_text" cols="40" rows="7"></textarea>
+        <br><br>
+        <!--Botones Copiar, Limpiar-->
+        <button class="btn" id="copy">Copiar</button>
+        <button class="btn" id="clear">Limpiar</button>
+        <br><br>
+        <!--Volver al Inicio-->
+        <a href="index.html" type="button">Inicio</a>
+    </div>
+    <script src="index.js"></script>
+    <script src="cipher.js"></script> 
+</body>
+</html>     

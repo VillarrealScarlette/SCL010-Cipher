@@ -1,5 +1,7 @@
+//Describe a quien quiero testear (función)
 describe('cipher', () => {
-
+// it es a Quién voy a testear -> el primer parametro es lo que según yo con mi código es lo que hice
+// el segundo parametro es lo que debería pasar (lo que ingreso y lo que me devuelve)
   it('debería ser un objeto', () => {
     assert.equal(typeof cipher, 'object');
   });

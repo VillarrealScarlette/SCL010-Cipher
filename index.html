@@ -12,42 +12,55 @@
     <div id="identification"> 
         <img src="logo.jpg" id="logo">
         <h2>Tu tranquilidad nos importa</h2>
-        <p><span class="info">Safe ha implementado un sistema donde usted podrá 
-        gestionar la <br>información logistica de nuestro servicio</span></p>   
-        <p><span class="more">Con la máxima seguridad y confianza que usted necesita</span></p><br>
+        <p><span class="info">Safe ha implementado un sistema de seguridad donde usted podrá <br> 
+        gestionar la información logistica de nuestro servicio</span></p>   
+        <p><span class="more">Con la máxima rapidez y confianza que usted necesita</span></p><br>
         <!--Botones "Costumers" && "Supplier"-->
         <button class="btnStart" id="costumers">Acceso Clientes</button>
-        <button class="btnStart" id="supplier">Acceso Colaborador</button>
+        <button class="btnStart" id="supplier">Acceso Trabajador Safe</button>
     </div>
     <div id="windowWork">
         <img src="image.png" id="background">
         <!--Costumers-->
         <div id="request">
-            <h1>Requerimiento Safe</h1>
+            <h1>Requerimiento de Servicio</h1>
         </div>
         <!--Suppliers-->        
         <div id="requisite">
-            <h1>Requisito Safe</h1>
+            <h1>Requisito de Servicio</h1>
         </div>
         <!--Trabajar--> 
         <!--Cuadro Offset-->           
-        <label for="offset">Número de cliente: </label>
-        <input type="number" id="offset" required>
+        <label for="offset">1. Ingresar RUT Cliente Empresa: </label><br>
+        <i id="offsetInstruction">(sin puntos ni guion)</i><br>
+        <input type="text" min="1" maxlength="9" placeholder="Ej: 901234567" id="offset" required>
         <br><br>
         <!--Cuadro entrada de texto-->
-        <textarea id="enter_text" cols="40" rows="7" placeholder="Ingresar información" required></textarea>
-        <br><br>
+    <div id="labels">    
+        <label id="infoRequest" for="enter_text">2. Ingresar información logística del requerimiento: </label>
+        <label id="infoRequisite" for="enter_text">2. Ingresar requerimiento codificado enviado por el cliente: </label>
+        <label id="infoCopyText" for="out_text">3. Copiar información y enviar vía e-mail a Safe</label>
+        <label id="infoCopyRequisite" for="out_text">3. Copiar información para gestionar el servicio requerido</label>
+    </div>    
+    <div id="tableWork">
+        <textarea id="enter_text" cols="48" rows="6" placeholder="Ej. 
+Fecha:
+Horario:
+Direccion Sucursal:
+Jefe de Sucursal:
+Total deposito:" required></textarea>
+        
         <!--Boton Codificar para Costumers-->
         <div id="btnCode">
-            <button class="btn" id="code">Codificar</button>
+            <button class="btn" id="code">Codificar Requerimiento</button>
         </div>
         <!--Boton Decodificar para Supplier-->
         <div id="btnUncode">
-            <button class="btn" id="uncode">Decodificar</button>
+            <button class="btn" id="uncode">Decodificar Requerimiento</button>
         </div>
         <!--Cuadro salida de texto-->
-        <br><br>
-        <textarea id="out_text" cols="40" rows="7"></textarea>
+        <textarea id="out_text" cols="48" rows="6"></textarea>
+    </div>
         <br><br>
         <!--Botones Copiar, Limpiar-->
         <button class="btn" id="copy">Copiar</button>
@@ -57,6 +70,6 @@
         <a href="index.html" type="button">Inicio</a>
     </div>
     <script src="index.js"></script>
-    <script src="cipher.js"></script> 
+    <script src="src/cipher.js"></script> 
 </body>
 </html>     

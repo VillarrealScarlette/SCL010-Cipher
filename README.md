@@ -46,14 +46,10 @@ Safe utiliza una de las técnicas más simples para cifrar un mensaje: El [Cifra
 Fue realizada a través de la plataforma Trello, haciendo el uso de tableros, los cuales contuvieron las tareas a llevar a cabo para la entrega del proyecto. Como también mediante _dailys_ diarios al inicio de cada jornada
 
 ## Prototipo
-El prototipo indica el flujo de interacción del usuario con la aplicación
-
-![caeser-cipher](src/prototiposafe.jpg)
+El [prototipo](src/prototiposafe.jpg) indica el flujo de interacción del usuario con la aplicación
 
 ## Boceto
-El boceto muestra el diseño inicial considerado para la aplicación
-
-![caeser-cipher](src/bocetosafe.jpg)
+El [boceto](src/bocetosafe.jpg) muestra el diseño inicial considerado para la aplicación
 
 ## Cómo usar la aplicación
 - Acceder a la aplicación a través del [link](https://villarrealscarlette.github.io/SCL010-Cipher/src/index.html)
@@ -68,14 +64,14 @@ El boceto muestra el diseño inicial considerado para la aplicación
  ## Testeo con Usuarios
  Se testeó la aplicación con usuarios, diferentes de los usuarios reales, a quienes se puso en contexto del trabajo de la aplicación para evaluar el comportamiento de esta última en materia de usabilidad
  Algunas consideraciones generales que se obtuvieron son:
- - 1. Era poco intuitiva
- - 2. No considera la forma en la que se debía ingresar el RUT de la Empresa (con o sin puntos, por ejemplo)
- - 3. No se entendía qué tipo de información se debía ingresar
- - 4. Se debaja el campo de _offset_ vacío 
+ 1. Era poco intuitiva
+ 2. No considera la forma en la que se debía ingresar el RUT de la Empresa (con o sin puntos, por ejemplo)
+ 3. No se entendía qué tipo de información se debía ingresar
+ 4. Se debaja el campo de _offset_ vacío 
 
  ### Modificaciones según testeo
  - Respecto a los puntos 1,2 y 3 se decidió añadir más instrucciones a la aplicación de manera de guiar al usuario y ejemplificar en los datos que debía ingresar
  - Respecto al punto 4 se decidió crear _alerts_ para notificar al usuario que no ingresó un valor en uno de los campos requeridos (RUT empresa y/o ingreso de información)
 
- #Desarrollado por
+ # Desarrollado por
  Scarlette Villarreal Á.

@@ -73,5 +73,5 @@ El [boceto](src/bocetosafe.jpg) muestra el diseño inicial considerado para la a
  - Respecto a los puntos 1,2 y 3 se decidió añadir más instrucciones a la aplicación de manera de guiar al usuario y ejemplificar en los datos que debía ingresar
  - Respecto al punto 4 se decidió crear _alerts_ para notificar al usuario que no ingresó un valor en uno de los campos requeridos (RUT empresa y/o ingreso de información)
 
- # Desarrollado por
+ ## Desarrollado por
  Scarlette Villarreal Á.

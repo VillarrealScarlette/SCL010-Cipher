@@ -47,10 +47,13 @@ Fue realizada a través de la plataforma Trello, haciendo el uso de tableros, lo
 
 ## Prototipo
 El prototipo indica el flujo de interacción del usuario con la aplicación
-[prototipo](src/prototiposafe.JPG)
+
+![caeser-cipher](src/prototiposafe.jpg)
+
 ## Boceto
 El boceto muestra el diseño inicial considerado para la aplicación
-[boceto](src/bocetosafe.JPG)
+
+![caeser-cipher](src/bocetosafe.jpg)
 
 ## Cómo usar la aplicación
 - Acceder a la aplicación a través del [link](https://villarrealscarlette.github.io/SCL010-Cipher/src/index.html)
@@ -61,3 +64,18 @@ El boceto muestra el diseño inicial considerado para la aplicación
 - Clickear el boton "Copiar" para copiar la información obtenida
 - *Opcionalmente clickear boton "Limpiar" para borrar la información ingresada
 - Clickear boton "Inicio" para terminar 
+
+ ## Testeo con Usuarios
+ Se testeó la aplicación con usuarios, diferentes de los usuarios reales, a quienes se puso en contexto del trabajo de la aplicación para evaluar el comportamiento de esta última en materia de usabilidad
+ Algunas consideraciones generales que se obtuvieron son:
+ - 1. Era poco intuitiva
+ - 2. No considera la forma en la que se debía ingresar el RUT de la Empresa (con o sin puntos, por ejemplo)
+ - 3. No se entendía qué tipo de información se debía ingresar
+ - 4. Se debaja el campo de _offset_ vacío 
+
+ ### Modificaciones según testeo
+ - Respecto a los puntos 1,2 y 3 se decidió añadir más instrucciones a la aplicación de manera de guiar al usuario y ejemplificar en los datos que debía ingresar
+ - Respecto al punto 4 se decidió crear _alerts_ para notificar al usuario que no ingresó un valor en uno de los campos requeridos (RUT empresa y/o ingreso de información)
+
+ #Desarrollado por
+ Scarlette Villarreal Á.

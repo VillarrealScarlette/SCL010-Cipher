@@ -7,11 +7,11 @@
 
 > [Demo SAFE](https://villarrealscarlette.github.io/SCL010-Cipher/src/index.html)
 
-**Safe** es una aplicación que permitirá a nuestros usuarios recibir y gestionar la información de retiro (fecha, direccion surcursal, horario, entre otro) correspondiente al servicio de transporte de valores con sus clientes, de forma segura a través de mensajes codificados, manteniendo la **confidencialidad** de los datos logísticos.  
+**Safe** es una aplicación que permitirá a nuestros usuarios recibir y gestionar la información de retiro (fecha, direccion surcursal, horario, entre otro) correspondiente al servicio de transporte de valores con sus clientes, de forma segura a través de mensajes codificados, manteniendo la **confidencialidad** de los datos logísticos 
 
 ## Cliente Safe
 
-Empresas prestadoras de servicio de recaudación y traslado de valores, suministro de cambio y gestión de depósitos en instituciones financieras.
+Empresas prestadoras de servicio de recaudación y traslado de valores, suministro de cambio y gestión de depósitos en instituciones financieras
 
 ### Usuarios
 Se identifican 2 tipos de usuarios
@@ -31,10 +31,10 @@ Al acceder como "Trabajador Safe" deberá identificar el requisito de servicio a
 Safe nace a partir de la necesidad de resguardar la información especifica referida al retiro de valores de una empresa con su proveedor de servicio, con la finalidad de proteger la confidencialidad de los datos y restringuir el manejo de la información, además de evitar su maluso 
 
 ### Visión
-Entregar una aplicación que permita aumentar el valor de sus clientes a través de la prestación de un servicio seguro y confiable para sus relaciones comerciales.
+Entregar una aplicación que permita aumentar el valor de sus clientes a través de la prestación de un servicio seguro y confiable para sus relaciones comerciales
 
 ### Misión
-Trabajar en conjunto con sus clientes para realizar optimizaciones a la aplicación en base a sus necesidades, desarrollando tecnologia de altos estandares en seguridad sumado a la entrega de soporte y capacitación constante.
+Trabajar en conjunto con sus clientes para realizar optimizaciones a la aplicación en base a sus necesidades, desarrollando tecnologia de altos estandares en seguridad sumado a la entrega de soporte y capacitación constante
 
 # Resumen del Proyecto
 
@@ -74,7 +74,7 @@ El boceto muestra el diseño inicial considerado para la aplicación
  4. Se debaja el campo de _offset_ vacío 
 
  ### Modificaciones según testeo
- - Respecto a los puntos 1,2 y 3 se decidió añadir más instrucciones a la aplicación de manera de guiar al usuario y ejemplificar en los datos que debía ingresar
+ - Respecto a los puntos 1, 2 y 3 se decidió añadir más instrucciones a la aplicación de manera de guiar al usuario y ejemplificar en los datos que debía ingresar
  - Respecto al punto 4 se decidió crear _alerts_ para notificar al usuario que no ingresó un valor en uno de los campos requeridos (RUT empresa y/o ingreso de información)
 
  ## Desarrollado por

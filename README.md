@@ -48,8 +48,12 @@ Fue realizada a través de la plataforma Trello, haciendo el uso de tableros, lo
 ## Prototipo
 El [prototipo](src/prototiposafe.JPG) indica el flujo de interacción del usuario con la aplicación
 
+![src-prototiposafe](src/prototiposafe.JPG)
+
 ## Boceto
 El [boceto](src/bocetosafe.JPG) muestra el diseño inicial considerado para la aplicación
+
+![src-bocetosafe](src/bocetosafe.JPG)
 
 ## Cómo usar la aplicación
 - Acceder a la aplicación a través del [link](https://villarrealscarlette.github.io/SCL010-Cipher/src/index.html)

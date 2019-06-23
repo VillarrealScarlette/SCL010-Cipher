@@ -46,10 +46,10 @@ Safe utiliza una de las técnicas más simples para cifrar un mensaje: El [Cifra
 Fue realizada a través de la plataforma Trello, haciendo el uso de tableros, los cuales contuvieron las tareas a llevar a cabo para la entrega del proyecto. Como también mediante _dailys_ diarios al inicio de cada jornada
 
 ## Prototipo
-El [prototipo](src/prototiposafe.jpg) indica el flujo de interacción del usuario con la aplicación
+El [prototipo](src/prototiposafe.JPG) indica el flujo de interacción del usuario con la aplicación
 
 ## Boceto
-El [boceto](src/bocetosafe.jpg) muestra el diseño inicial considerado para la aplicación
+El [boceto](src/bocetosafe.JPG) muestra el diseño inicial considerado para la aplicación
 
 ## Cómo usar la aplicación
 - Acceder a la aplicación a través del [link](https://villarrealscarlette.github.io/SCL010-Cipher/src/index.html)

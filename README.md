@@ -19,10 +19,13 @@ Se identifican 2 tipos de usuarios
 - En una empresa contratadora de servicio: Personal encargado de la gestión de requerimiento del servicio de retiro de valores
 
 #### Objetivos de Usuario
+> Safe es una aplicación que permite fortalecer la relación entre empresas prestadoras de servicio de transporte de valores y sus clientes, empresas que requieran de la mayor seguridad que un servicio les pueda brindar. 
 - Para una empresa contratadora de servicio: Codificar la información referida a un requerimiento de retiro de valores, para luego enviarla de forma segura (a través de e-mail) a su proveedor de servicio
 - Para una empresa prestadora de servicio: Descrifrar la información enviada por su cliente (a través de e-mail) para iniciar un requisito de servicio logistico
-####
-Safe es una aplicación que permite fortalecer la relación y seguridad entre empresas prestadoras de servicio de transporte de valores y sus clientes, empresas contratadoras del servicio que necesitan 
+#### Proceso de usuarios
+Al acceder como "Cliente" el usuario se deberá identificar con el RUT de la empresa a la cual representa para iniciar un requerimiento, luego podrá igresar los datos espeficos como fecha, dirección de sucursal, jefe de sucursal, horario entre otros, de su requerimiento de servicio para luego codificarlos y obtener así una información compleja de descrifrar. Finalmente, el usuario copia la nueva información y la ingresa en un e-mail para terminar con el requerimiento de servicio que será enviado a la empresa proveedora
+
+Al acceder como "Trabajador Safe" deberá identificar el requisito de servicio a un cliente, para lo cual deberá ingresar el RUT de cliente contenido en el e-mail (o en sus archivos) junto con la información codificada, la cual procede a decodificar mediante la aplicación, obteniendo los datos necesarios para gestionar el requisito de servicio del cliente
 
 ## ¿Por qué nace Safe?
 Safe nace a partir de la necesidad de resguardar la información especifica referida al retiro de valores de una empresa con su proveedor de servicio, con la finalidad de proteger la confidencialidad de los datos y restringuir el manejo de la información, además de evitar su maluso 
@@ -44,10 +47,10 @@ Fue realizada a través de la plataforma Trello, haciendo el uso de tableros, lo
 
 ## Prototipo
 El prototipo indica el flujo de interacción del usuario con la aplicación
-![prototipo](src/prototipo.JPG)
+[prototipo](src/prototipo.JPG)
 ## Boceto
 El boceto muestra el diseño inicial considerado para la aplicación
-![boceto](src/boceto.JPG)
+[boceto](src/boceto.JPG)
 
 ## Cómo usar la aplicación
 - Acceder a la aplicación a través del [link](https://villarrealscarlette.github.io/SCL010-Cipher/src/index.html)

@@ -46,12 +46,12 @@ Safe utiliza una de las técnicas más simples para cifrar un mensaje: El [Cifra
 Fue realizada a través de la plataforma Trello, haciendo el uso de tableros, los cuales contuvieron las tareas a llevar a cabo para la entrega del proyecto. Como también mediante _dailys_ diarios al inicio de cada jornada
 
 ## Prototipo
-El [prototipo](src/prototiposafe.JPG) indica el flujo de interacción del usuario con la aplicación
+El prototipo indica el flujo de interacción del usuario con la aplicación
 
 ![src-prototiposafe](src/prototiposafe.JPG)
 
 ## Boceto
-El [boceto](src/bocetosafe.JPG) muestra el diseño inicial considerado para la aplicación
+El boceto muestra el diseño inicial considerado para la aplicación
 
 ![src-bocetosafe](src/bocetosafe.JPG)
 
